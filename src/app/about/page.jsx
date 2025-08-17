@@ -30,7 +30,7 @@ const AboutUs = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-white dark:bg-black">
+    <div className="min-h-screen bg-white dark:bg-[#0F0E0E]">
       {/* Our Story Section */}
       <section className="w-full pt-20 pb-16 flex items-center justify-center gap-10 px-8">
         <div className="w-1/3 flex items-center justify-center">

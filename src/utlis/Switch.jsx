@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import  { useEffect, useRef } from 'react';
 import { Sun, Moon, Stars } from 'lucide-react';
 
 // Reusable Switch Component

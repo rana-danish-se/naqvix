@@ -1,7 +1,6 @@
 import GlassmorphismCard from '@/utlis/GlassmorphismCard';
 import UHeading from '@/utlis/UHeading';
 import Image from 'next/image';
-import React from 'react';
 import * as Icons from 'lucide-react';
 
 const WhyUs = () => {

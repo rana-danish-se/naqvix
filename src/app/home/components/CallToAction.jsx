@@ -1,7 +1,7 @@
 import GlassButton from '@/utlis/GlassButton';
 import UHeading from '@/utlis/UHeading';
 import Image from 'next/image';
-import React from 'react';
+
 
 const CallToAction = () => {
   return (

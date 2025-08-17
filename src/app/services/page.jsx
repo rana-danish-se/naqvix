@@ -1,6 +1,6 @@
 import ServiceCard from '@/utlis/ServiceCard';
 import Image from 'next/image';
-import React from 'react';
+
 
 const page = () => {
   const services = [
@@ -25,7 +25,7 @@ const page = () => {
       description: 'Leverage AI to automate, predict, and innovate at scale.',
       icon: 'Brain',
       color: '#8B5CF6',
-      link: '/services/ai',
+      link: '/services/artificial-intelligence',
     },
     {
       title: 'Development Services',
@@ -64,7 +64,7 @@ const page = () => {
         'Navigate complex challenges with expert consulting and business strategy.',
       icon: 'Lightbulb',
       color: '#A855F7',
-      link: '/services/consulting',
+      link: '/services/strategy',
     },
   ];
   return (

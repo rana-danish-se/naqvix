@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import { useState } from "react";
 import { motion } from "framer-motion";
 
 const clients = Array.from({ length: 39 }, (_, i) => `/assets/clients/${i + 1}.png`);

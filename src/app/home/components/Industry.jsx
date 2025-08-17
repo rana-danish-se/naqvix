@@ -1,5 +1,4 @@
 import UHeading from '@/utlis/UHeading';
-import React from 'react';
 import * as Icons from "lucide-react";
 import GlassmorphismCard from '@/utlis/GlassmorphismCard';
 

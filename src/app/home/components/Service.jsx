@@ -1,5 +1,5 @@
 import UHeading from '@/utlis/UHeading';
-import React from 'react';
+
 
 import ServiceCard from '@/utlis/ServiceCard';
 
@@ -26,7 +26,7 @@ const Service = () => {
       description: 'Leverage AI to automate, predict, and innovate at scale.',
       icon: 'Brain',
       color: '#8B5CF6',
-      link: '/services/ai',
+      link: '/services/artificial-intelligence',
     },
     {
       title: 'Development Services',
@@ -65,7 +65,7 @@ const Service = () => {
         'Navigate complex challenges with expert consulting and business strategy.',
       icon: 'Lightbulb',
       color: '#A855F7',
-      link: '/services/consulting',
+      link: '/services/strategy',
     },
   ];
 
