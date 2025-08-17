@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+
+
+body {
+  font-family: var(--font-poppins), sans-serif;
+  
+}
+::-webkit-scrollbar{
+  display: none;
+}
+
