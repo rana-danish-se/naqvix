@@ -1,5 +1,3 @@
-// components/UHeading.jsx
-import React from "react";
 
 const UHeading = ({ text }) => {
   return (

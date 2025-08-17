@@ -5,7 +5,7 @@ import React from 'react';
 
 const CallToAction = () => {
   return (
-    <div className="relative w-full mb-10 p-5 flex items-center justify-center rounded-2xl overflow-hidden">
+    <div className="relative gap-5 w-full mb-10 p-5 flex md:flex-row flex-col items-center justify-center rounded-2xl overflow-hidden">
       {/* Radiant Glow */}
       <div
         className="absolute top-0 left-0 w-94 h-94 rounded-full blur-3xl opacity-70"
@@ -16,7 +16,7 @@ const CallToAction = () => {
         }}
       ></div>
 
-      <div className="relative flex flex-col w-1/2 gap-5 z-10">
+      <div className="relative flex flex-col w-full md:w-1/2 gap-5 z-10">
         <UHeading text={'Let’s Build the Future of Your Business'} />
         <p
           className="w-full md:w-3/4 text-base md:text-lg

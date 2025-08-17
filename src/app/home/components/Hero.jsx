@@ -2,12 +2,12 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="w-full md:h-[90vh]  flex flex-col-reverse md:flex-row items-center justify-between transition-colors duration-1000 dark:bg-[#0F0E0E] mb-5 px-6 md:px-12">
+    <section className="w-full  h-[50vh]  lg:h-[90vh]  flex flex-col-reverse lg:flex-row items-center lg:justify-between justify-center transition-colors duration-1000 dark:bg-[#0F0E0E] mb-5 px-6 md:px-12">
       
       {/* LEFT CONTENT */}
-      <div className="w-full md:w-2/3 flex flex-col items-start text-left space-y-4">
+      <div className="w-full   lg:w-[60%] flex flex-col items-start text-left space-y-4">
         <h1
-          className="text-[7vw] md:text-[4.25vw] font-extrabold leading-tight 
+          className="text-[7vw] text-center lg:text-left md:text-[4.25vw] font-extrabold leading-tight 
             bg-gradient-to-r from-blue-500 via-purple-500 to-purple-700 
             bg-clip-text text-transparent
             dark:bg-gradient-to-r dark:from-white dark:via-zinc-200 dark:to-zinc-400"
@@ -15,7 +15,7 @@ const Hero = () => {
           Empowering Businesses with Technology, Intelligence, and Innovation
         </h1>
         <p
-          className="w-full md:w-3/4 text-base md:text-lg
+          className="w-full text-center m-auto lg:m-0 lg:text-left md:w-3/4 text-base md:text-lg
             bg-gradient-to-r from-gray-700 via-gray-800 to-black 
             bg-clip-text text-transparent
             dark:bg-gradient-to-r dark:from-zinc-300 dark:via-zinc-400 dark:to-zinc-500"
@@ -25,7 +25,7 @@ const Hero = () => {
           work smarter.
         </p>
         <button
-          className="px-6 py-3 cursor-pointer mt-3 rounded-xl font-semibold text-sm
+          className="px-6 py-3 m-auto lg:m-0 cursor-pointer lg:mt-3 rounded-xl font-semibold text-sm
             transition-all duration-500 ease-in-out
             shadow-md 
             bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-700 
@@ -40,11 +40,11 @@ const Hero = () => {
       </div>
 
       {/* RIGHT SPLINE */}
-      <div className="w-full  md:w-1/3  h-[50vh] md:h-[70vh] relative">
+      <div className="w-full hidden lg:flex  md:w-[40%]   h-[100vh] md:h-full relative">
         <iframe
          src='https://my.spline.design/weirdbubblecopy-j6f6lPUO9Qy2fL8zOTcsfCnb/'
           frameBorder="0"
-          className="absolute top-0 left-0  inset-0 w-full h-full"
+          className="absolute z-10 lg:top-0 left-0  inset-0 w-full h-full"
           allow="autoplay; fullscreen"
         />
       </div>
