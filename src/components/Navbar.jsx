@@ -49,7 +49,7 @@ const Navbar = () => {
       title: 'Artificial Intelligence Solutions',
       icon: Brain,
       color: '#8B5CF6',
-      link: '/services/artifcial-intelligence',
+      link: '/services/artificial-intelligence',
     },
     {
       title: 'Development Services',
