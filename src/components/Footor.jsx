@@ -56,7 +56,7 @@ const Footer = () => {
             <h5 className="text-xl font-bold mb-2 dark:text-white text-purple-400">
               Links
             </h5>
-            {['HOME', 'ABOUT', 'SERVICES', 'COMMUNITY','BLOGS', 'CONTACT US'].map(
+            {['HOME', 'ABOUT', 'SERVICES', 'COMMUNITY','BLOGS', 'CONTACT'].map(
               (link, i) => (
                 <Link
                   key={i}

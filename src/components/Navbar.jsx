@@ -1,7 +1,7 @@
 'use client';
 import Switch from '@/utlis/Switch';
 import Image from 'next/image';
-import React, { useState, useEffect, useContext } from 'react';
+import { useState } from 'react';
 import { ChevronDown, Menu, X } from 'lucide-react';
 import { useTheme } from '@/context/AppContext';
 import Link from 'next/link';
@@ -30,9 +30,11 @@ const Navbar = () => {
     { label: 'SERVICES', href: '/services', hasDropdown: true },
     { label: 'TEAM', href: '/team' },
     { label: 'COMMUNITY', href: '/community' },
+    { label: 'CLIENTS', href: '/clients' },
     { label: 'CONTACT', href: '/contact' },
   ];
   const services = [
+
     {
       title: 'BPO / KPO Services',
       icon: Headset,
@@ -124,7 +126,7 @@ const Navbar = () => {
               <li key={link.href} className="relative group">
                 <Link
                   href={link.href}
-                  className={`relative px-3 py-1 rounded-md transition-all cursor-pointer flex items-center justify-center 
+                  className={`relative px-2 py-1 rounded-md transition-all cursor-pointer flex items-center justify-center 
                 hover:text-zinc-900 dark:hover:text-neutral-300
                 ${
                   isActive
