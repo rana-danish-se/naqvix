@@ -1,7 +1,6 @@
-import GlassButton from '@/utlis/GlassButton';
-import UHeading from '@/utlis/UHeading';
+import GlassButton from '@/utils/GlassButton';
+import UHeading from '@/utils/UHeading';
 import Image from 'next/image';
-
 
 const CallToAction = () => {
   return (
@@ -33,7 +32,13 @@ const CallToAction = () => {
       </div>
 
       <div className="relative z-10">
-        <Image src="/assets/touch.jpg" width={400} height={400} alt='touch' className='rounded-2xl'/>
+        <Image
+          src="/assets/touch.jpg"
+          width={400}
+          height={400}
+          alt="touch"
+          className="rounded-2xl"
+        />
       </div>
     </div>
   );

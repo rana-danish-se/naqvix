@@ -1,6 +1,5 @@
-import ServiceCard from '@/utlis/ServiceCard';
+import ServiceCard from '@/utils/ServiceCard';
 import Image from 'next/image';
-
 
 const page = () => {
   const services = [
@@ -95,7 +94,7 @@ const page = () => {
             src="/assets/service1.jpg"
             width={200}
             height={200}
-            alt='image'
+            alt="image"
             className="w-full rounded-2xl"
           />
           <p className="dark:text-neutral-600 text-center">
@@ -108,7 +107,7 @@ const page = () => {
             src="/assets/service2.jpg"
             width={200}
             height={200}
-                alt='image'
+            alt="image"
             className="w-full h-full rounded-2xl"
           />
         </div>
@@ -117,7 +116,7 @@ const page = () => {
             src="/assets/service3.jpg"
             width={200}
             height={200}
-                alt='image'
+            alt="image"
             className="w-full rounded-2xl"
           />
           <p className="dark:text-neutral-600 text-center">

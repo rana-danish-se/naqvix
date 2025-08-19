@@ -1,7 +1,7 @@
 'use client';
-import GlassButton from '@/utlis/GlassButton';
-import ServiceCard from '@/utlis/ServiceCard';
-import UHeading from '@/utlis/UHeading';
+import GlassButton from '@/utils/GlassButton';
+import ServiceCard from '@/utils/ServiceCard';
+import UHeading from '@/utils/UHeading';
 import Image from 'next/image';
 import React from 'react';
 import { useTheme } from '@/context/AppContext';
@@ -163,7 +163,7 @@ const page = () => {
             </div>
             <div className="flex border dark:border-white border-neutral-600 rounded-xl p-5 flex-col   sm:w-[50%] w-full items-center justify-center">
               <h1 className="dark:text-zinc-500 text-center font-bold text-2xl">
-              Increased Accuracy
+                Increased Accuracy
               </h1>
               <div className="sm:flex items-center justify-center hidden w-full">
                 <lord-icon
@@ -177,7 +177,9 @@ const page = () => {
                 ></lord-icon>
               </div>
               <p className="text-center dark:text-white">
-        Automated systems execute tasks with precision, significantly reducing the chances of mistakes and improving overall data reliability.
+                Automated systems execute tasks with precision, significantly
+                reducing the chances of mistakes and improving overall data
+                reliability.
               </p>
             </div>
           </div>

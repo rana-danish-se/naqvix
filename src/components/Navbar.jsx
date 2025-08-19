@@ -1,5 +1,5 @@
 'use client';
-import Switch from '@/utlis/Switch';
+import Switch from '@/utils/Switch';
 import Image from 'next/image';
 import { useState } from 'react';
 import { ChevronDown, Menu, X } from 'lucide-react';
@@ -34,7 +34,6 @@ const Navbar = () => {
     { label: 'CONTACT', href: '/contact' },
   ];
   const services = [
-
     {
       title: 'BPO / KPO Services',
       icon: Headset,
@@ -220,16 +219,18 @@ const Navbar = () => {
 
       {/* Mobile Menu Overlay */}
       {isMobileMenuOpen && (
-        <div 
+        <div
           className="lg:hidden fixed inset-0 bg-black bg-opacity-50 z-40"
           onClick={closeMobileMenu}
         ></div>
       )}
 
       {/* Mobile Menu */}
-      <div className={`lg:hidden fixed top-0 right-0 h-full w-80 bg-white dark:bg-neutral-900 shadow-xl z-50 transform transition-transform duration-300 ease-in-out ${
-        isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'
-      }`}>
+      <div
+        className={`lg:hidden fixed top-0 right-0 h-full w-80 bg-white dark:bg-neutral-900 shadow-xl z-50 transform transition-transform duration-300 ease-in-out ${
+          isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'
+        }`}
+      >
         <div className="p-6">
           {/* Close button */}
           <button
@@ -254,20 +255,26 @@ const Navbar = () => {
                           hover:text-zinc-900 dark:hover:text-neutral-300
                           ${
                             isActive
-                              ? "text-zinc-900 dark:text-neutral-200 bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-500 bg-opacity-10"
+                              ? 'text-zinc-900 dark:text-neutral-200 bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-500 bg-opacity-10'
                               : 'text-zinc-600 dark:text-neutral-400'
                           }`}
                       >
                         {link.label}
-                        <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${
-                          isServicesOpen ? 'rotate-180' : 'rotate-0'
-                        }`} />
+                        <ChevronDown
+                          className={`w-4 h-4 transition-transform duration-200 ${
+                            isServicesOpen ? 'rotate-180' : 'rotate-0'
+                          }`}
+                        />
                       </button>
 
                       {/* Services Dropdown */}
-                      <div className={`overflow-hidden transition-all duration-300 ease-in-out ${
-                        isServicesOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
-                      }`}>
+                      <div
+                        className={`overflow-hidden transition-all duration-300 ease-in-out ${
+                          isServicesOpen
+                            ? 'max-h-96 opacity-100'
+                            : 'max-h-0 opacity-0'
+                        }`}
+                      >
                         <div className="pl-4 pt-2 space-y-2">
                           {services.map((service) => {
                             const Icon = service.icon;
@@ -299,7 +306,7 @@ const Navbar = () => {
                         hover:text-zinc-900 dark:hover:text-neutral-300
                         ${
                           isActive
-                            ? "text-zinc-900 dark:text-neutral-200 bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-500 bg-opacity-10"
+                            ? 'text-zinc-900 dark:text-neutral-200 bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-500 bg-opacity-10'
                             : 'text-zinc-600 dark:text-neutral-400'
                         }`}
                     >

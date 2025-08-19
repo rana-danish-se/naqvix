@@ -1,7 +1,7 @@
 'use client';
-import GlassButton from '@/utlis/GlassButton';
-import ServiceCard from '@/utlis/ServiceCard';
-import UHeading from '@/utlis/UHeading';
+import GlassButton from '@/utils/GlassButton';
+import ServiceCard from '@/utils/ServiceCard';
+import UHeading from '@/utils/UHeading';
 import Image from 'next/image';
 import React from 'react';
 import { useTheme } from '@/context/AppContext';

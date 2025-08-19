@@ -1,7 +1,7 @@
 'use client';
-import GlassButton from '@/utlis/GlassButton';
-import ServiceCard from '@/utlis/ServiceCard';
-import UHeading from '@/utlis/UHeading';
+import GlassButton from '@/utils/GlassButton';
+import ServiceCard from '@/utils/ServiceCard';
+import UHeading from '@/utils/UHeading';
 import Image from 'next/image';
 import React from 'react';
 import { useTheme } from '@/context/AppContext';
@@ -160,7 +160,7 @@ const page = () => {
           ))}
         </div>
       </div>
-      <div className='mt-15 mb-10 mx-auto'>
+      <div className="mt-15 mb-10 mx-auto">
         <UHeading text={'The Advantages at a Glance'} />
       </div>
       <div className="flex gap-10 flex-col md:flex-row mt-5 mb-20">

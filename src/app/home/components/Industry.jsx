@@ -1,7 +1,6 @@
-import UHeading from '@/utlis/UHeading';
-import * as Icons from "lucide-react";
-import GlassmorphismCard from '@/utlis/GlassmorphismCard';
-
+import UHeading from '@/utils/UHeading';
+import * as Icons from 'lucide-react';
+import GlassmorphismCard from '@/utils/GlassmorphismCard';
 
 const Industry = () => {
   const industries = [

@@ -1,7 +1,6 @@
-import UHeading from '@/utlis/UHeading';
+import UHeading from '@/utils/UHeading';
 
-
-import ServiceCard from '@/utlis/ServiceCard';
+import ServiceCard from '@/utils/ServiceCard';
 
 const Service = () => {
   const services = [

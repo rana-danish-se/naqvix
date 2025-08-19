@@ -13,3 +13,6 @@ body {
   display: none;
 }
 
+.reset-tw , .reset-tw *{
+   all: revert !important;
+}

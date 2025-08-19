@@ -1,5 +1,5 @@
-import GlassmorphismCard from '@/utlis/GlassmorphismCard';
-import UHeading from '@/utlis/UHeading';
+import GlassmorphismCard from '@/utils/GlassmorphismCard';
+import UHeading from '@/utils/UHeading';
 import Image from 'next/image';
 import * as Icons from 'lucide-react';
 

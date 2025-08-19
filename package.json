@@ -10,13 +10,18 @@
   },
   "dependencies": {
     "@splinetool/react-spline": "^4.1.0",
+    "cloudinary": "^2.7.0",
     "framer-motion": "^12.23.12",
     "leaflet": "^1.9.4",
     "lucide-react": "^0.539.0",
+    "mongoose": "^8.17.2",
     "next": "^15.4.6",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "react-leaflet": "^5.0.0"
+    "react-leaflet": "^5.0.0",
+    "react-markdown": "^10.1.0",
+    "rehype-sanitize": "^6.0.0",
+    "remark-gfm": "^4.0.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
