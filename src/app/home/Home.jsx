@@ -42,7 +42,7 @@ const Home = () => {
       <Service />
       <WhyUs />
       <Industry />
-      <ClientMarquee />
+      {/* <ClientMarquee /> */}
       <CallToAction />
     </div>
   );

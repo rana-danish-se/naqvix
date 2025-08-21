@@ -40,11 +40,11 @@ const Industry = () => {
     },
   ];
   return (
-    <section className="w-full mt-30 p-4 mb-5 text-center flex flex-col items-center justify-center gap-5">
+    <section className="w-full mt-10 md:mt-30 p-4 mb-5 text-center flex flex-col items-center justify-center gap-5">
       <div className="w-full flex flex-col items-center justify-center gap-7">
         <UHeading text="Your Industry, Our Expertise" />
         <p
-          className="w-full md:w-3/4 text-base md:text-lg
+          className="w-full md:w-2/3 text-base md:text-md
             bg-gradient-to-r from-gray-700 via-gray-800 to-black 
             bg-clip-text text-transparent
             dark:bg-gradient-to-r dark:from-zinc-300 dark:via-zinc-400 dark:to-zinc-500"
@@ -59,7 +59,8 @@ const Industry = () => {
           return (
             <GlassmorphismCard
               key={idx}
-              className="w-full sm:w-[48%] md:w-[45%] lg:w-[30%]" // responsive
+              className="w-full sm:w-[48%] md:w-[45%] lg:w-[30%]"
+              textSize='text-sm' // responsive
             >
               <div className="flex items-center gap-3 mb-3">
                 <IconComponent

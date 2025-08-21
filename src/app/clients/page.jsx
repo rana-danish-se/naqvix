@@ -218,7 +218,7 @@ export default function OurClientsPage() {
       }`}
     >
       {/* Hero Section */}
-      <section className="w-full pt-20 pb-16 px-8">
+      <section className="w-full pt-20 pb-16 px-8 dark:bg-[#0F0E0E]">
         <div className="max-w-6xl mx-auto text-center">
           <UHeading text="OUR CLIENTS" />
           <div className="max-w-3xl mx-auto mb-16">
@@ -237,7 +237,7 @@ export default function OurClientsPage() {
       </section>
 
       {/* Stats Section */}
-      <section className="w-full py-16 px-8">
+      <section className="w-full py-16 px-8  dark:bg-[#0F0E0E]">
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-20">
             <StatCard
@@ -263,7 +263,7 @@ export default function OurClientsPage() {
       </section>
 
       {/* Client Logos Grid */}
-      <section className="w-full py-16 px-8">
+      <section className="w-full py-16 px-8  dark:bg-[#0F0E0E]">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-purple-700 bg-clip-text text-transparent mb-4">
@@ -288,7 +288,7 @@ export default function OurClientsPage() {
       </section>
 
       {/* Testimonials Section */}
-      <section className="w-full py-16 px-8">
+      <section className="w-full py-16 px-8  dark:bg-[#0F0E0E]">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-purple-700 bg-clip-text text-transparent mb-4">
@@ -315,7 +315,7 @@ export default function OurClientsPage() {
       </section>
 
       {/* Success Stories Section */}
-      <section className="w-full py-16 px-8">
+      <section className="w-full py-16 px-8  dark:bg-[#0F0E0E]">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-purple-700 bg-clip-text text-transparent mb-4">
@@ -369,7 +369,7 @@ export default function OurClientsPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="w-full py-20 px-8">
+      <section className="w-full py-20 px-8  dark:bg-[#0F0E0E]">
         <div className="max-w-4xl mx-auto text-center">
           <GlassmorphismCard>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-6">

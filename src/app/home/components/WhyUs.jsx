@@ -30,30 +30,30 @@ const WhyUs = () => {
   ];
 
   return (
-    <section className="w-full mt-30 p-4 mb-5 text-center flex lg:flex-row flex-col  items-center justify-center gap-5">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
+    <section className="w-full mt-10 md:mt-30 p-4 mb-5 text-center flex lg:flex-row flex-col  items-center justify-center gap-5">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center ">
         {/* Left column */}
         <div className="flex justify-center">
           <Image
-            src="/assets/handshake.jpg"
+            src="/assets/why1.png"
             alt="Handshake"
             width={300}
-            height={400}
-            className="rounded-xl object-cover"
+            height={600}
+            className="rounded-xl object-cover h-[50vh]  md:h-[70vh]"
           />
         </div>
 
         {/* Right column */}
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col md:gap-35">
           <Image
-            src="/assets/brain.jpg"
+            src="/assets/why2.png"
             alt="Brain"
             width={300}
             height={200}
             className="rounded-xl object-cover"
           />
           <Image
-            src="/assets/headphone.jpg"
+            src="/assets/why3.png"
             alt="Headphone"
             width={300}
             height={100}
@@ -71,13 +71,14 @@ const WhyUs = () => {
               <GlassmorphismCard
                 key={idx}
                 className="w-full sm:w-[48%] md:w-[45%] lg:w-[45%]"
+                textSize='text-sm'
               >
                 <div className="flex items-center gap-3 mb-3">
                   <IconComponent
                     size={32}
                     className="text-blue-500 dark:text-cyan-400"
                   />
-                  <h1 className="text-lg font-bold dark:text-white">
+                  <h1 className="text-md font-bold dark:text-white">
                     {item.heading}
                   </h1>
                 </div>

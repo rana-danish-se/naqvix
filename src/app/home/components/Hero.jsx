@@ -7,7 +7,7 @@ const Hero = () => {
       {/* LEFT CONTENT */}
       <div className="w-full   lg:w-[60%] flex flex-col items-start text-left space-y-4">
         <h1
-          className="text-[7vw] text-center lg:text-left md:text-[4.25vw] font-extrabold leading-tight 
+          className="text-[7vw]  text-center lg:text-left md:text-[3.5vw] font-extrabold leading-tight 
             bg-gradient-to-r from-blue-500 via-purple-500 to-purple-700 
             bg-clip-text text-transparent
             dark:bg-gradient-to-r dark:from-white dark:via-zinc-200 dark:to-zinc-400"
@@ -25,7 +25,7 @@ const Hero = () => {
           work smarter.
         </p>
         <button
-          className="px-6 py-3 m-auto lg:m-0 cursor-pointer lg:mt-3 rounded-xl font-semibold text-sm
+          className="px-6 py-3 m-auto mt-5 lg:m-0 cursor-pointer lg:mt-3 rounded-xl font-semibold text-sm
             transition-all duration-500 ease-in-out
             shadow-md 
             bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-700 

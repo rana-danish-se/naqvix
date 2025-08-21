@@ -67,10 +67,10 @@ const page = () => {
     },
   ];
   return (
-    <main className="w-full px-10 my-10 flex flex-col">
+    <main className="w-full px-10 my-13 flex flex-col">
       <div className="flex flex-col items-center justify-center gap-5">
         <h1
-          className="text-[7vw] md:text-[4.25vw] text-center font-extrabold leading-tight 
+          className="text-[7vw] md:text-[3.25vw] md:w-2/3 text-center font-extrabold leading-tight 
             bg-gradient-to-r from-blue-500 via-purple-500 to-purple-700 
             bg-clip-text text-transparent
             dark:bg-gradient-to-r dark:from-white dark:via-zinc-200 dark:to-zinc-400"
@@ -78,7 +78,7 @@ const page = () => {
           Empowering Your Business with Cutting Edge Solutions
         </h1>
         <p
-          className="w-full text-center md:w-2/3 text-base md:text-lg
+          className="w-full text-center md:w-2/3 text-base md:text-md
             bg-gradient-to-r from-gray-700 via-gray-800 to-black 
             bg-clip-text text-transparent
             dark:bg-gradient-to-r dark:from-zinc-300 dark:via-zinc-400 dark:to-zinc-500"
@@ -88,43 +88,7 @@ const page = () => {
           discover solutions tailored for your success.
         </p>
       </div>
-      <div className="flex mt-10 items-center h-[100vh] gap-10 justify-center">
-        <div className="flex flex-col w-[30%] h-full items-center justify-end gap-2   ">
-          <Image
-            src="/assets/service1.jpg"
-            width={200}
-            height={200}
-            alt="image"
-            className="w-full rounded-2xl"
-          />
-          <p className="dark:text-neutral-600 text-center">
-            Where innovation and collaboration come together to deliver
-            exceptional business solutions.
-          </p>
-        </div>
-        <div className="flex flex-col w-[30%] h-full items-center justify-end gap-2   ">
-          <Image
-            src="/assets/service2.jpg"
-            width={200}
-            height={200}
-            alt="image"
-            className="w-full h-full rounded-2xl"
-          />
-        </div>
-        <div className="flex flex-col w-[30%] h-full items-center justify-start gap-2   ">
-          <Image
-            src="/assets/service3.jpg"
-            width={200}
-            height={200}
-            alt="image"
-            className="w-full rounded-2xl"
-          />
-          <p className="dark:text-neutral-600 text-center">
-            Explore our expertise across solutions designed to elevate your
-            business.
-          </p>
-        </div>
-      </div>
+  
       <div className="flex flex-wrap mt-10 justify-center gap-6 p-4">
         {services.map((service, idx) => (
           <div

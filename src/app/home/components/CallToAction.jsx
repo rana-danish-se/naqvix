@@ -15,10 +15,17 @@ const CallToAction = () => {
         }}
       ></div>
 
-      <div className="relative flex flex-col w-full md:w-1/2 gap-5 z-10">
-        <UHeading text={'Let’s Build the Future of Your Business'} />
+      <div className="relative items-start flex flex-col w-full md:w-1/2 gap-5 z-10">
+        <h1
+          className="text-[7vw] text-center lg:text-left md:text-[3.5vw] font-extrabold leading-tight 
+            bg-gradient-to-r from-blue-500 via-purple-500 to-purple-700 
+            bg-clip-text text-transparent
+            dark:bg-gradient-to-r dark:from-white dark:via-zinc-200 dark:to-zinc-400"
+        >
+         Let's Build the Future of Your Business
+        </h1>
         <p
-          className="w-full md:w-3/4 text-base md:text-lg
+          className="w-full md:w-3/4 text-base md:text-sm
             bg-gradient-to-r from-gray-700 via-gray-800 to-black 
             bg-clip-text text-transparent
             dark:bg-gradient-to-r dark:from-zinc-300 dark:via-zinc-400 dark:to-zinc-500"
@@ -27,13 +34,13 @@ const CallToAction = () => {
           build something extraordinary together.
         </p>
         <div className="w-[250px]">
-          <GlassButton text="Start a Conversation" />
+          <GlassButton text="Start a Conversation" href='/contact' />
         </div>
       </div>
 
       <div className="relative z-10">
         <Image
-          src="/assets/touch.jpg"
+          src="/assets/callToaction.png"
           width={400}
           height={400}
           alt="touch"
