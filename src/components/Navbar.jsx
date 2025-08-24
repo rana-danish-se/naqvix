@@ -107,7 +107,7 @@ const Navbar = () => {
 
         {/* Logo */}
         <Image
-          src="/assets/logo.png"
+          src={theme==="dark"?"/assets/whiteLogo.png":"/assets/logo.png"}
           width={200}
           height={50}
           alt="logo"
